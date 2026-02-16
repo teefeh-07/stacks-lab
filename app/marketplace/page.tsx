@@ -36,3 +36,7 @@ function SortControls() {
   return <select>Sort</select>;
 }
 
+function Pagination() {
+  return <div>1 2 3</div>;
+}
+
