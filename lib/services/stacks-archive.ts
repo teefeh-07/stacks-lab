@@ -12,3 +12,7 @@ export async function getTransaction(txid: string) {
   return res.json();
 }
 
+async function fetchWithRetry(url: string, retries = 3) {
+  // Implementation
+}
+
