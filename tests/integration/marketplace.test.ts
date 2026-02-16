@@ -35,3 +35,10 @@ Clarinet.test({
   },
 });
 
+Clarinet.test({
+  name: "only admin can clean listings",
+  fn(chain: Chain, accounts: Map<string, Account>) {
+    // Test logic
+  },
+});
+
