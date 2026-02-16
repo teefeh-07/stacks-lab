@@ -8,3 +8,10 @@ export const consoleLogger: Logger = {
   error: console.error,
 };
 
+enum LogLevel {
+  DEBUG,
+  INFO,
+  WARN,
+  ERROR,
+}
+
