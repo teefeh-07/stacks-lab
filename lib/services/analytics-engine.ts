@@ -8,3 +8,7 @@ export class AnalyticsEngine {
     // Implementation
   }
 
+  startSession() {
+    // Implementation
+  }
+
