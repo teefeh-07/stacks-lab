@@ -22,3 +22,7 @@ export class WebSocketManager {
     if (client) client.join(room);
   }
 
+  handleDisconnect(clientId: string) {
+    this.clients.delete(clientId);
+  }
+}
