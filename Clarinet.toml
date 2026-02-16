@@ -1,0 +1,56 @@
+[project]
+name = "Stacks Lab"
+description = "Bitcoin Superapp on Stacks"
+authors = []
+telemetry = true
+cache_dir = "./.cache"
+
+# [[project.requirements]]
+# contract_id = "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.sbtc-token"
+# Mainnet: SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token
+
+[contracts.launchpad-v12]
+path = "contracts/launchpad-v12.clar"
+clarity_version = 4
+epoch = '3.3'
+
+[contracts.marketplace-v12]
+path = "contracts/marketplace-v12.clar"
+clarity_version = 4
+epoch = '3.3'
+
+[contracts.reputation-v12]
+path = "contracts/reputation-v12.clar"
+clarity_version = 4
+epoch = '3.3'
+
+[contracts.liquidity-locker-v12]
+path = "contracts/liquidity-locker-v12.clar"
+clarity_version = 4
+epoch = '3.3'
+
+[contracts.stacks-hub-avatars-v12]
+path = "contracts/stacks-hub-avatars-v12.clar"
+clarity_version = 4
+epoch = '3.3'
+
+[contracts.sip009-nft-trait-v12]
+path = "contracts/sip009-nft-trait-v12.clar"
+clarity_version = 4
+epoch = '3.3'
+
+[contracts.sip010-ft-trait-v12]
+path = "contracts/sip010-ft-trait-v12.clar"
+clarity_version = 4
+epoch = '3.3'
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+
