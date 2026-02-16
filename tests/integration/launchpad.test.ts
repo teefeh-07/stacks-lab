@@ -7,3 +7,10 @@ Clarinet.test({
   },
 });
 
+Clarinet.test({
+  name: "tokens allocated correctly",
+  fn(chain: Chain, accounts: Map<string, Account>) {
+    // Test logic
+  },
+});
+
