@@ -7,3 +7,5 @@ export const ROUTES = {
   SETTINGS: "/settings",
 };
 
+export const API_TIMEOUT = 5000;
+
