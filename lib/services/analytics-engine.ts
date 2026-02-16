@@ -12,3 +12,7 @@ export class AnalyticsEngine {
     // Implementation
   }
 
+  calculateRetention() {
+    // Implementation
+  }
+
