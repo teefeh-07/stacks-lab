@@ -14,3 +14,10 @@ Clarinet.test({
   },
 });
 
+Clarinet.test({
+  name: "badges are awarded",
+  fn(chain: Chain, accounts: Map<string, Account>) {
+    // Test logic
+  },
+});
+
