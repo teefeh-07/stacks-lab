@@ -7,3 +7,10 @@ Clarinet.test({
   },
 });
 
+Clarinet.test({
+  name: "scores decay over time",
+  fn(chain: Chain, accounts: Map<string, Account>) {
+    // Test logic
+  },
+});
+
