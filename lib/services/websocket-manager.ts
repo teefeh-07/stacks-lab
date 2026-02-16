@@ -7,3 +7,9 @@ export class WebSocketManager {
     this.io = new Server(server);
   }
 
+  private clients = new Map<string, any>();
+
+  addClient(id: string, client: any) {
+    this.clients.set(id, client);
+  }
+
