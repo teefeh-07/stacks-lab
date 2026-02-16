@@ -28,3 +28,10 @@ Clarinet.test({
   },
 });
 
+Clarinet.test({
+  name: "vesting schedules enforced",
+  fn(chain: Chain, accounts: Map<string, Account>) {
+    // Test logic
+  },
+});
+
