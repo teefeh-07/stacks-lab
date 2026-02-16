@@ -18,3 +18,6 @@ export const CardTitle = ({ className, ...props }: React.HTMLAttributes<HTMLHead
   <h3 className={`card-title ${className}`} {...props} />
 );
 
+export const CardContent = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+  <div className={`card-content ${className}`} {...props} />
+);
