@@ -5,3 +5,6 @@ describe("formatNumber", () => {
 describe("formatDate", () => {
   // Tests...
 });
+describe("formatCurrency", () => {
+  // Tests...
+});
