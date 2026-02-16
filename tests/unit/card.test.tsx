@@ -6,3 +6,8 @@ test("renders default card", () => {
   expect(screen.getByText("Content")).toHaveClass("elevated");
 });
 
+test("renders outline card", () => {
+  render(<Card variant="outline">Content</Card>);
+  expect(screen.getByText("Content")).toHaveClass("outline");
+});
+
