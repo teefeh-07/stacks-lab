@@ -6,3 +6,10 @@ interface AvatarProps {
   size?: number;
 }
 
+export function Avatar({ src, fallback, size = 40 }: AvatarProps) {
+  return (
+    <div className="avatar" style={{ width: size, height: size }}>
+      {src ? <img src={src} alt="avatar" /> : <span>{fallback}</span>}
+    </div>
+  );
+}
