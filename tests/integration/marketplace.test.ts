@@ -28,3 +28,10 @@ Clarinet.test({
   },
 });
 
+Clarinet.test({
+  name: "can update price",
+  fn(chain: Chain, accounts: Map<string, Account>) {
+    // Test logic
+  },
+});
+
