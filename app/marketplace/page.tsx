@@ -28,3 +28,7 @@ function FilterSidebar() {
   return <aside>Filters</aside>;
 }
 
+function ItemGrid() {
+  return <div className="grid">Items</div>;
+}
+
