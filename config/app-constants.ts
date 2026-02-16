@@ -34,3 +34,8 @@ export const EXPLORERS = {
   TESTNET: "https://explorer.hiro.so?chain=testnet",
 };
 
+export const ERRORS = {
+  WALLET_NOT_FOUND: "Wallet not installed",
+  CONNECT_FAILED: "Connection failed",
+};
+
