@@ -18,3 +18,7 @@ function ActivityFeed() {
   return <div>Feed</div>;
 }
 
+function WalletStatus() {
+  return <div>Status</div>;
+}
+
