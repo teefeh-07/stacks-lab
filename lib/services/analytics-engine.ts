@@ -4,3 +4,7 @@ export class AnalyticsEngine {
     console.log(event, properties);
   }
 
+  identify(userId: string) {
+    // Implementation
+  }
+
