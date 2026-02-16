@@ -14,3 +14,8 @@ export const PAGINATION = {
   DEFAULT_LIMIT: 10,
 };
 
+export const FEATURES = {
+  ENABLE_ARKADIKO: false,
+  ENABLE_STACKING: true,
+};
+
