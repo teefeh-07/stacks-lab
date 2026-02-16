@@ -15,3 +15,7 @@ enum LogLevel {
   ERROR,
 }
 
+function formatTimestamp() {
+  return new Date().toISOString();
+}
+
