@@ -11,3 +11,6 @@ describe("formatCurrency", () => {
 describe("truncateAddress", () => {
   // Tests...
 });
+describe("validation", () => {
+  // Edge cases...
+});
