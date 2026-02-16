@@ -14,3 +14,7 @@ function MetricsGrid() {
   return <div className="grid">Metrics</div>;
 }
 
+function ActivityFeed() {
+  return <div>Feed</div>;
+}
+
