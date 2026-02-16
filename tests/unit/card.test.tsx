@@ -11,3 +11,7 @@ test("renders outline card", () => {
   expect(screen.getByText("Content")).toHaveClass("outline");
 });
 
+test("applies custom classNames", () => {
+  render(<Card className="custom">Content</Card>);
+  expect(screen.getByText("Content")).toHaveClass("custom");
+});
