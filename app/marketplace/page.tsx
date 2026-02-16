@@ -24,3 +24,7 @@ function SearchBar() {
   return <input type="search" />;
 }
 
+function FilterSidebar() {
+  return <aside>Filters</aside>;
+}
+
