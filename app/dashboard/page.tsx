@@ -10,3 +10,7 @@ function MainContent() {
   return <main>Content</main>;
 }
 
+function MetricsGrid() {
+  return <div className="grid">Metrics</div>;
+}
+
