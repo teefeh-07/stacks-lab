@@ -16,3 +16,7 @@ export class AnalyticsEngine {
     // Implementation
   }
 
+  analyzeFunnel(steps: string[]) {
+    // Implementation
+  }
+}
