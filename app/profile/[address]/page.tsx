@@ -6,3 +6,7 @@ function ProfileHeader() {
   return <header>Header</header>;
 }
 
+function NFTGallery() {
+  return <div className="gallery">NFTs</div>;
+}
+
