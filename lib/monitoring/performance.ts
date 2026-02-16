@@ -17,3 +17,7 @@ export class PerformanceMonitor {
     // Implementation
   }
 
+  getResourceTiming() {
+    return performance.getEntriesByType("resource");
+  }
+
