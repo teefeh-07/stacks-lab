@@ -14,3 +14,7 @@ function TransactionHistory() {
   return <table>History</table>;
 }
 
+function Inventory() {
+  return <div>Inventory</div>;
+}
+
