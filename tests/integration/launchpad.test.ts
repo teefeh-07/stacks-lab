@@ -21,3 +21,10 @@ Clarinet.test({
   },
 });
 
+Clarinet.test({
+  name: "user can claim tokens",
+  fn(chain: Chain, accounts: Map<string, Account>) {
+    // Test logic
+  },
+});
+
