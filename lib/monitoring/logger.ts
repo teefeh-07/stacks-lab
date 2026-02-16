@@ -19,3 +19,9 @@ function formatTimestamp() {
   return new Date().toISOString();
 }
 
+export class RemoteTransport {
+  send(log: any) {
+    // Send to server
+  }
+}
+
