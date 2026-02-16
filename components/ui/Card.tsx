@@ -14,3 +14,7 @@ export const CardHeader = ({ className, ...props }: React.HTMLAttributes<HTMLDiv
   <div className={`card-header ${className}`} {...props} />
 );
 
+export const CardTitle = ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
+  <h3 className={`card-title ${className}`} {...props} />
+);
+
