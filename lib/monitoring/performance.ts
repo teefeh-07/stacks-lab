@@ -13,3 +13,7 @@ export class PerformanceMonitor {
     return performance.getEntriesByType("measure");
   }
 
+  observeWebVitals() {
+    // Implementation
+  }
+
