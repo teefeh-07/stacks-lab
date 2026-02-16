@@ -24,3 +24,8 @@ export const SOCIALS = {
   DISCORD: "https://discord.gg/stackslab",
 };
 
+export const WALLET_CONFIG = {
+  APP_NAME: "Stacks Lab",
+  ICON: "https://stackslab.com/icon.png",
+};
+
