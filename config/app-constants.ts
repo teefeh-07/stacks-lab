@@ -39,3 +39,8 @@ export const ERRORS = {
   CONNECT_FAILED: "Connection failed",
 };
 
+export const SUCCESS = {
+  TX_SENT: "Transaction broadcasted",
+  SAVED: "Settings saved",
+};
+
