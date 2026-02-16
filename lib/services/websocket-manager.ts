@@ -13,3 +13,7 @@ export class WebSocketManager {
     this.clients.set(id, client);
   }
 
+  broadcast(event: string, data: any) {
+    this.io.emit(event, data);
+  }
+
