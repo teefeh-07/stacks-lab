@@ -16,3 +16,27 @@ export default function MarketplacePage() {
         </AuthGuard>
     );
 }
+export default function MarketplacePage() {
+  return <div>Marketplace</div>;
+}
+
+function SearchBar() {
+  return <input type="search" />;
+}
+
+function FilterSidebar() {
+  return <aside>Filters</aside>;
+}
+
+function ItemGrid() {
+  return <div className="grid">Items</div>;
+}
+
+function SortControls() {
+  return <select>Sort</select>;
+}
+
+function Pagination() {
+  return <div>1 2 3</div>;
+}
+
