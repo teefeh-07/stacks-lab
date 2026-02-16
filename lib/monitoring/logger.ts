@@ -3,3 +3,8 @@ interface Logger {
   error(msg: string): void;
 }
 
+export const consoleLogger: Logger = {
+  info: console.log,
+  error: console.error,
+};
+
