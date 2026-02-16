@@ -6,3 +6,7 @@ function Sidebar() {
   return <nav>Sidebar</nav>;
 }
 
+function MainContent() {
+  return <main>Content</main>;
+}
+
