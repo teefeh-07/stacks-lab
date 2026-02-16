@@ -32,3 +32,7 @@ function ItemGrid() {
   return <div className="grid">Items</div>;
 }
 
+function SortControls() {
+  return <select>Sort</select>;
+}
+
