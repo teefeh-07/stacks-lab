@@ -29,3 +29,8 @@ export const WALLET_CONFIG = {
   ICON: "https://stackslab.com/icon.png",
 };
 
+export const EXPLORERS = {
+  MAINNET: "https://explorer.hiro.so",
+  TESTNET: "https://explorer.hiro.so?chain=testnet",
+};
+
