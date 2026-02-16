@@ -16,3 +16,5 @@ async function fetchWithRetry(url: string, retries = 3) {
   // Implementation
 }
 
+const blockCache = new Map<number, any>();
+
