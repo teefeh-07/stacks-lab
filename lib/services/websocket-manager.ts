@@ -17,3 +17,8 @@ export class WebSocketManager {
     this.io.emit(event, data);
   }
 
+  joinRoom(clientId: string, room: string) {
+    const client = this.clients.get(clientId);
+    if (client) client.join(room);
+  }
+
