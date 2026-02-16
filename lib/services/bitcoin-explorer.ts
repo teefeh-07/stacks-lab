@@ -10,3 +10,8 @@ export async function getUtxos(address: string) {
   return res.json();
 }
 
+export async function getFees() {
+  const res = await fetch(`${MEMPOOL_API}/v1/fees/recommended`);
+  return res.json();
+}
+
