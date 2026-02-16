@@ -108,3 +108,12 @@ Made by the Stacks Lab team.
 - ✅ Chainhooks integration
 - ✅ Enhanced utilities and components
 - ✅ Comprehensive documentation
+
+
+## Recent Updates
+
+- ✅ Clarity v4 support with epoch 3.3
+- ✅ WalletConnect integration
+- ✅ Chainhooks integration
+- ✅ Enhanced utilities and components
+- ✅ Comprehensive documentation
