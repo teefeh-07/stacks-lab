@@ -15,3 +15,7 @@ export async function getFees() {
   return res.json();
 }
 
+export async function pushTx(hex: string) {
+  // Implementation
+}
+
