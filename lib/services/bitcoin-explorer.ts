@@ -5,3 +5,8 @@ export async function getBtcBalance(address: string) {
   return res.json();
 }
 
+export async function getUtxos(address: string) {
+  const res = await fetch(`${MEMPOOL_API}/address/${address}/utxo`);
+  return res.json();
+}
+
