@@ -9,3 +9,8 @@ export const ROUTES = {
 
 export const API_TIMEOUT = 5000;
 
+export const PAGINATION = {
+  DEFAULT_PAGE: 1,
+  DEFAULT_LIMIT: 10,
+};
+
