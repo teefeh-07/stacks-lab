@@ -10,3 +10,7 @@ function NFTGallery() {
   return <div className="gallery">NFTs</div>;
 }
 
+function TransactionHistory() {
+  return <table>History</table>;
+}
+
