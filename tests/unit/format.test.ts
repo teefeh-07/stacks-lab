@@ -8,3 +8,6 @@ describe("formatDate", () => {
 describe("formatCurrency", () => {
   // Tests...
 });
+describe("truncateAddress", () => {
+  // Tests...
+});
