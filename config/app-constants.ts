@@ -19,3 +19,8 @@ export const FEATURES = {
   ENABLE_STACKING: true,
 };
 
+export const SOCIALS = {
+  TWITTER: "https://twitter.com/stackslab",
+  DISCORD: "https://discord.gg/stackslab",
+};
+
