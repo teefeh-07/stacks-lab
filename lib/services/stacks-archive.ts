@@ -7,3 +7,8 @@ export async function getBlock(height: number) {
   return res.json();
 }
 
+export async function getTransaction(txid: string) {
+  const res = await fetch(`${ARCHIVE_URL}/extended/v1/tx/${txid}`);
+  return res.json();
+}
+
