@@ -9,3 +9,7 @@ export class PerformanceMonitor {
     performance.measure(id, `${id}-start`, `${id}-end`);
   }
 
+  getMetrics() {
+    return performance.getEntriesByType("measure");
+  }
+
